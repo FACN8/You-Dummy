@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.form-container {
+  border: 2px solid black;
+  margin: 10vw auto;
+  text-align: center;
+  padding: 15px;
+  height: 50vh;
+  width: 30vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 60%;
+}
+
+#submitBtn {
+  width: 20%;
+}
+
+a {
+  font-size: 20px;
+  margin: 50px;
+  display: block;
+}
