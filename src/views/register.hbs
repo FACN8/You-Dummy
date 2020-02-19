@@ -1,19 +1,22 @@
 <div class="form-container">
     <h1>Sign Up</h1>
-    <form action="/home" method="POST">
+    <form action="/login" method="POST">
         <div class="user-div">
             <label for="username">Username:</label>
-            <input type="text" name="username">
+            <input id="mahmod" type="text" name="username" placeholder="Insert username" value="">
         </div>
         <div class="pass-div">
             <label for="password">Password:</label>
-            <input type="password" name="password">
+            <input type="password" name="password" placeholder="Insert password">
         </div>
         <div class="pass-div">
             <label for="confirmpPassword">Confirm Password:</label>
-            <input type="password" name="confirmPassword">
+            <input type="password" name="confirmPassword" placeholder="confirm your password">
         </div>
-        <div class="submit"> <input id="submitBtn" type="submit" value="Login">
+
+        <div class="submit"> 
+            <input type="submit" value="Login">
         </div>
+
     </form>
 </div>
