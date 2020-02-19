@@ -1,22 +1,27 @@
 <div class="form-container">
     <h1>Sign Up</h1>
     <form action="/login" method="POST">
-        <div class="user-div">
+
+        <div class="user">
             <label for="username">Username:</label>
-            <input id="mahmod" type="text" name="username" placeholder="Insert username" value="">
+            <input type="text" name="username" placeholder="Insert username" pattern="[A-Za-z0-9]+" title="username must be only characters and numbers">
         </div>
-        <div class="pass-div">
+
+        <div class="password">
             <label for="password">Password:</label>
             <input type="password" name="password" placeholder="Insert password">
         </div>
-        <div class="pass-div">
+
+        <div class="confirmPassword">
             <label for="confirmpPassword">Confirm Password:</label>
-            <input type="password" name="confirmPassword" placeholder="confirm your password">
+            <input type="password" name="confPassword" placeholder="confirm your password">
         </div>
 
         <div class="submit"> 
             <input type="submit" value="Login">
         </div>
+
+        <span>Password does not match</span>
 
     </form>
 </div>
